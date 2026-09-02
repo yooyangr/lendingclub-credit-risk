@@ -1,0 +1,6 @@
+model,accuracy,recall,f1_score,roc_auc
+Regularized ANN (0.5 threshold),0.8103,0.0238,0.0458,0.7102
+Threshold-tuned ANN (0.3),0.7738,0.3548,0.3744,0.7102
+Class-weighted ANN,0.6528,0.6483,0.4160,0.7084
+Logistic Regression,,0.6680,0.4131,
+Random Forest,,0.6208,0.4156,
