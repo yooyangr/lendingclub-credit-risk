@@ -1,0 +1,24 @@
+# Data and generated models
+data/*
+!data/README.md
+*.feather
+*.parquet
+*.h5
+*.keras
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local outputs
+loan_readiness_scoring_results.csv
+model_comparison_results.csv
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
